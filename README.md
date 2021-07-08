@@ -1,2 +1,2 @@
 # Keeper-App
-Created with CodeSandbox
+Note: Login page is not connected to the Database.
