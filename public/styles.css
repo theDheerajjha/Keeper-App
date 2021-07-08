@@ -1,0 +1,205 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+  background-color: #5cdb95;
+}
+body {
+  background: #eee;
+  padding: 0 16px;
+  background-color: #5cdb95;
+}
+
+header {
+  background-color: #379683;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  height: 15vh;
+}
+
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+  font-size: 3vw;
+}
+
+.headerbutton {
+  position: relative;
+  left: 85vw;
+  bottom: 6vh;
+  appearance: none;
+  outline: 0;
+  background-color: #e84a5f;
+  border: 0;
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 20px;
+}
+.headerbutton:hover {
+  background-color: #aa0a20;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+}
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  color: #e84a5f;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+}
+
+form.create-note {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form.create-note input,
+form.create-note textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+form.create-note button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #e84a5f;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+.signuphead {
+  float: left;
+  background-color: #5cdb95;
+  width: 50%;
+  height: 100vh;
+}
+.signuphead h1 {
+  color: #fff;
+  text-align: center;
+  padding-top: 5%;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+  font-size: 5vw;
+}
+
+.center {
+  text-align: center;
+  color: white;
+  font-size: 2vw;
+}
+
+.login {
+  height: 100vh;
+  background-color: #379683;
+  color: #fff;
+  text-align: center;
+  padding-top: 5%;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+  font-size: 3vw;
+}
+
+.login input {
+  border: 1px solid rgba(252, 252, 252, 0.4);
+  background-color: rgba(252, 252, 252, 0.2);
+  width: 250px;
+  border-radius: 6px;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  font-weight: 300;
+}
+
+.loginbutton {
+  appearance: none;
+  outline: 0;
+  background-color: #e84a5f;
+  border: 0;
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 6px;
+  width: 250px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.login ::placeholder {
+  color: White;
+}
+a[href*="#"] {
+  text-decoration: none;
+  color: #e84a5f;
+  display: block;
+  font-size: 20px;
+  margin-top: 3vh;
+}
+a[href*="#"]:hover {
+  color: #fff;
+}
+.loginbutton:hover {
+  background-color: #aa0a20;
+}
+.greet {
+  text-align: center;
+  font-size: 3vw;
+  font-family: "McLaren", cursive;
+  color: #fff;
+}
